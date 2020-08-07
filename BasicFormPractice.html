@@ -6,6 +6,7 @@
     <style>
         .wufoo {
             font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+            /*text-align: center;*/
         }
     </style>
 </head>
@@ -31,9 +32,9 @@
         <p>Email</p>
         <input type="email" name="email" placeholder="example@domain" size="36">
         <p>Phone Number</p>
-        <input type="number" name="phone1" style="width: 50px" min="0" max="999"> -
-        <input type="number" name="phone2" style="width: 50px" min="0" max="999"> -
-        <input type="number" name="phone3" style="width: 50px" min="0" max="999">
+        <input type="number" name="phone1" style="width: 50px" min="0" max="999" maxlength="3"> -
+        <input type="number" name="phone2" style="width: 50px" min="0" max="999" maxlength="3"> -
+        <input type="number" name="phone3" style="width: 50px" min="0" max="999" maxlength="3">
         <p><input type="submit" value="Submit"></p>
     </fieldset>
 </form>

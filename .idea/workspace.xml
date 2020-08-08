@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e303a298-b7b6-4e15-b458-e14fe1c518eb" name="Default Changelist" comment="" />
+    <list default="true" id="e303a298-b7b6-4e15-b458-e14fe1c518eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BasicPlusTableExercise_Chess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fkfLJZbD8mOr6QqTf2SCjAkXk5" />
   <component name="ProjectViewState">
@@ -36,7 +42,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596766954719</updated>
-      <workItem from="1596766955836" duration="13843000" />
+      <workItem from="1596766955836" duration="14261000" />
+      <workItem from="1596796911045" duration="18000" />
+      <workItem from="1596917471813" duration="966000" />
     </task>
     <servers />
   </component>

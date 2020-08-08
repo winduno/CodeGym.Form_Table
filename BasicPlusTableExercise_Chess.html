@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess</title>
+    <style>
+        body{
+            background-color: darkgoldenrod;
+            text-align: center;
+        }
+        td{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="0">
+        <tr style="text-align: center">
+            <td>&nbsp;</td>
+            <td><b>1</b></td>
+            <td><b>2</b></td>
+            <td><b>3</b></td>
+            <td><b>4</b></td>
+            <td><b>5</b></td>
+            <td><b>6</b></td>
+            <td><b>7</b></td>
+            <td><b>8</b></td>
+        </tr>
+        <tr>
+            <td><b>A</b></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+        </tr>
+        <tr>
+            <td><b>B</b></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+        </tr>
+        <tr>
+            <td><b>C</b></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+        </tr>
+        <tr>
+            <td><b>D</b></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+        </tr>
+        <tr>
+            <td><b>E</b></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+        </tr>
+        <tr>
+            <td><b>F</b></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+        </tr>
+        <tr>
+            <td><b>G</b></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+        </tr>
+        <tr>
+            <td><b>H</b></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+            <td style="width: 30px; height: 30px; background-color: black"></td>
+            <td style="width: 30px; height: 30px; background-color: white"></td>
+        </tr>
+    </table>
+</body>
+</html>

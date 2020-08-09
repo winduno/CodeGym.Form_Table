@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e303a298-b7b6-4e15-b458-e14fe1c518eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicForm2nd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Survey.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicForm1st.html" beforeDir="false" afterPath="$PROJECT_DIR$/BasicForm1st.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicPlusTablePractice.html" beforeDir="false" afterPath="$PROJECT_DIR$/BasicPlusTablePractice.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
       <workItem from="1596766955836" duration="14261000" />
       <workItem from="1596796911045" duration="18000" />
       <workItem from="1596917471813" duration="6803000" />
-      <workItem from="1596986456257" duration="3134000" />
+      <workItem from="1596986456257" duration="7264000" />
     </task>
     <servers />
   </component>
@@ -62,5 +62,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1220" y="298" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1596768082680" />
+    <state x="1046" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596992094417">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1046" y="150" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1596992094417" />
   </component>
 </project>

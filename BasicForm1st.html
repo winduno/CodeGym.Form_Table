@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BasicForm</title>
+    <style>
+        .tilte{
+            color: blue;
+            float: right;
+        }
+        .tableName{
+            background-color: darkorange;
+            color: white;
+        }
+        th, td{
+            padding: 5px 10px 5px 10px;
+        }
+        .hobby{
+            color: darkorange;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="/somedomainelse.html" method="post">
+        <table>
+            <tr>
+                <th colspan="4" class="tableName">SỞ THÍCH CỦA BẠN</th>
+            </tr>
+            <tr>
+                <td class="tilte">Họ và tên</td>
+                <td colspan="2"><input type="text" name="yourname" size="30"></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tilte">Email</td>
+                <td colspan="2"><input type="email" name="email" size="20"></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="tilte">Sở thích</td>
+                <td class="hobby"><input type="checkbox" name="hobby">Thể thao</td>
+                <td class="hobby"><input type="checkbox" name="hobby">Âm nhạc</td>
+                <td class="hobby"><input type="checkbox" name="hobby">Đọc sách</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="hobby"><input type="checkbox" name="hobby">Lướt web</td>
+                <td class="hobby"><input type="checkbox" name="hobby">Chơi game</td>
+                <td class="hobby"><input type="checkbox" name="hobby">Điện ảnh</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="hobby"><input type="checkbox" name="hobby">Du lịch</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><input type="submit" value="Gửi thông tin"></td>
+                <td><input type="reset" value="Nhập lại"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

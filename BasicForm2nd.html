@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BasicForm2nd</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+        td, th{
+            padding: 5px 15px 5px 15px;
+        }
+        .caption{
+            background-color: lightblue;
+            color: blue;
+            font-size: large;
+            font-weight: bold;
+        }
+        table{
+            background-color: coral;
+        }
+        .title{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <form action="/somedomain.html" method="get">
+        <table>
+            <tr>
+                <td class="caption" colspan="5">ĐĂNG KÝ HỌC VIÊN</td>
+            </tr>
+            <tr>
+                <td class="title">Họ và tên</td>
+                <td><input type="text" name="name" size="35"></td>
+            </tr>
+            <tr>
+                <td class="title">Ngày sinh</td>
+                <td><input type="text" name="name" size="20"></td>
+            </tr>
+            <tr>
+                <td class="title">Giới tính</td>
+                <td><input type="radio" name="gender">Nam <input type="radio" name="gender"> Nữ</td>
+            </tr>
+            <tr>
+                <td class="title">Địa chỉ</td>
+                <td rowspan="3"><textarea name="addressText" id="address" cols="25" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="title">Lớp</td>
+                <td>
+                    <select name="stuClass" id="idStuClass">
+                        <option value="default" >--Chọn lớp--</option>
+                        <option value="A">Lớp A</option>
+                        <option value="B">Lớp B</option>
+                        <option value="C">Lớp C</option>
+                        <option value="D">Lớp D</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Email</td>
+                <td><input type="email" size="25"></td>
+            </tr>
+            <tr>
+                <td class="title">Điện thoại</td>
+                <td><input type="email" size="25"></td>
+            </tr>
+            <tr>
+                <td class="title">&nbsp;</td>
+                <td><input type="submit" value="Đăng ký"> <input type="reset" value="Nhập lại"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
